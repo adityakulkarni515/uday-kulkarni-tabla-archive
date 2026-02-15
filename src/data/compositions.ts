@@ -1586,6 +1586,379 @@ export const taals: Taal[] = [
         },
         tags: ["rupak", "tukda", "tirekite"],
       },
+    {
+      id: "rupak-chakradhar-paran-ang",
+      name: "Chakradhar Bedam Tihai Paran Ang",
+      type: "Chakradhar",
+      description: "Paran ang chakradhar bedam tihai in Rupak Taal",
+      content: {
+        sections: [
+          {
+            label: "Face",
+            text: "Dhita dhita dhage tita kddhetita gadigana\nNage tita kata\nkatatagena (dhita tagena dha) ×3",
+          },
+        ],
+      },
+      tags: ["rupak", "chakradhar", "paran-ang", "bedam-tihai"],
+    },
+    {
+      id: "rupak-peshkar-chatushra",
+      name: "Peshkar Chatushra Jati",
+      type: "Peshkar",
+      description: "Chatushra Jati Peshkar in Rupak Taal with 9 paltas",
+      content: {
+        sections: [
+          {
+            label: "Face",
+            text: "Dhin-traka  Dhin- - dha  -dha-  Dhindha  Dhati  Dhadha  Tina",
+          },
+          {
+            label: "Palta 1",
+            text: "Dhin-traka  Dhin- - dha  -dha-  Dhindha  Dhati  Dhadha  Tina\nTirakita  Takagida  -nadha-  Dhindha  Dhati  Dhadha  Tina",
+          },
+          {
+            label: "Palta 2",
+            text: "Dhin-traka  Dhin- - dha  -dha-  Dhindha  Dhati  Dhadha  Tina\n-traka  Dhin- - dha  -dha-  Dhindha  Dhati  Dhadha  Tina\nDhi getraka  Dhin- - dha  -dha-  Dhindha  Dhati  Dhadha  Tina\nTirakita  Takagida  -nadha-  Dhindha  Dhati  Dhadha  Tina",
+          },
+          {
+            label: "Palta 3",
+            text: "Dhin-traka  Dhin- - dha  --Dhin-  -Dha--  Dhati  Dhadha  Tina\nTirakita  Takagida  -nadha-  Dhindha  Dhati  Dhadha  Tina",
+          },
+          {
+            label: "Palta 4",
+            text: "Dhin- - dha  --Dhin-  -Dha--  Dhindha  dhati  dhadha  tina\nTirakita  Takagida  -nadha-  Dhindha  Dhati  Dhadha  Tina",
+          },
+          {
+            label: "Palta 5",
+            text: "Dhigenadha  -kddha-  Dhina  Dha--kd  Dha-ti-  Dhadha  Tina\nTi--dha  -kda dha-  Dhina  Dha- -kd  Dhati  Dhadha  Tina",
+          },
+          {
+            label: "Palta 6",
+            text: "Nati-  -dha-kd  Dhadha  Tina",
+            note: "Play twice with khadhi baj",
+          },
+          {
+            label: "Palta 7",
+            text: "Ti--dha  -kddha-  Dhadhi  Nati-  -dha-kd  Dhadha  Tina\nTi--dha  -kddha-  Dhadhi  Nati-  -dha-kd  Dhatidhage  tinakina",
+          },
+          {
+            label: "Palta 8",
+            text: "Ti--dha  -kddha-  Dhadhi  Nati-  -dha-kd  Dhatidhage  Tinakina\nDha-tira  Kittaktirakita  tirakita  Dhati  Dhage  Tina  Kina",
+          },
+          {
+            label: "Palta 9",
+            text: "Dha-tira  Kittaktirakita  tirakita  Dhati  Dhage  Dhina  gina\nDha-tira  Kittaktirakita  tirakita  Dhati  Dhage  Tina  Kina",
+            note: "Play Kayada after completing all paltas",
+          },
+        ],
+      },
+      tags: ["rupak", "peshkar", "chatushra", "jati"],
+    },
+    {
+      id: "rupak-kayda-dhatirakitatak",
+      name: "Kayada — Dhatirakitatak Tirakita",
+      type: "Kayda",
+      description: "Rupak Taal Kayada with 7 paltas and bedam tihai",
+      content: {
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Dhatirakitatak tirakita Dhatirakitatak tirakita\nDhatiDhage Dhinagina DhatiDhage tinakina",
+          },
+          {
+            label: "Palta 1",
+            text: "(Dhatirakitatak tirakita Dhatirakitatak tirakita) ×3\nDhatiDhage Dhinagina DhatiDhage tinakina",
+          },
+          {
+            label: "Palta 2",
+            text: "Dhatirakitatak tirakita Dhatirakitatak tirakita DhatiDhage DinaGina\nDhatirakitatak tirakita Dhatirakitatak tirakita DhatiDhage DinaGina\nDhatiDhage DhinaGina  DhatiDhage DinaGina",
+          },
+          {
+            label: "Palta 3",
+            text: "Dhatirakitatak Tirakita DhakitakTith\nDhatirakitatak Tirakita DhakitakTith\nDhatirakitatak Tirakita DhakitakTirakitak\nDhati Dhage Dhinagina Dh",
+          },
+          {
+            label: "Palta 4",
+            text: "Dhatirakitatak Dhatirakitatak tirakita\nDhatirakitatak Dhatirakitatak tirakita DhatiDhage tinakina",
+            note: "½ face",
+          },
+          {
+            label: "Palta 5",
+            text: "Dhatirakitatak Dhatirakitatak Dhatirakitatak tirakita\nDhatirakitatak Dhatirakitatak Dhatirakitatak tirakita\nDhatirakitatak tirakita Dhatirakitatak tirakita\nDhatiDhage DhinaGina  DhatiDhage DinaGina",
+          },
+          {
+            label: "Palta 6",
+            text: "Dhatirakitatak Dhatirakitatak Dhatirakitatak Dhatirakitatak tirakita\nDhatirakitatak Dhatirakitatak Dhatirakitatak Dhatirakitatak tirakita\nDhati Dhage Dhinagina Dhati Dhage Dhati Dhage tinakina",
+          },
+          {
+            label: "Palta 7",
+            text: "Dhatirakitatak tirakita taTiraGitatak tirakita\nDhatirakitatak tirakita taTiraGitatak tirakita\nDhatirakitatak tirakita taTiraGitatak tirakita\nDhatirakitatak tirakita taTiraGitatak tirakita\nDhati Dhage Tinakina",
+          },
+          {
+            label: "Tihai",
+            text: "(Dhatirakitatak tirakita Thatirakitatak tirakita Dha s kath\nDhatirakitatak tirakita Thatirakitatak tirakita Dha s kath\nDhatirakitatak tirakita Thatirakitatak tirakita Dha s kathaDha s s) ×3",
+          },
+        ],
+      },
+      tags: ["rupak", "kayda", "dhatirakitatak", "tirakita"],
+    },
+    {
+      id: "rupak-kayda-rgena-dhatirakita",
+      name: "Kayada — Rgena DhatiraKitatak TakDhatirakita",
+      type: "Kayda",
+      description: "Rupak Taal Kayada with 8 paltas and nested tihai",
+      content: {
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Dhatit s Dhagena DhatiraKitatak TakDhatirakita\nDhatit s Dhagena DhatiDhage Tinakina",
+          },
+          {
+            label: "Kali Ang",
+            text: "Thatit s Thakena ThatiraKitatak TakDhatirakita\nDhatit s Dhagena DhatiDhage Tinakina",
+          },
+          {
+            label: "Palta 1",
+            text: "(Dhatit s Dhagena DhatiraKitatak TakDhatirakita) ×3\nDhatit s Dhagena DhatiDhage Tinakina",
+          },
+          {
+            label: "Palta 2",
+            text: "Dhatit s Dhagena DhatiraKitatak TakDhatirakita\nDhatiraKitatakTirakita DhatiraKitatak TakDhatirakita",
+            note: "½ Face",
+          },
+          {
+            label: "Palta 3",
+            text: "Dhatit s Dhagena (DhatiraKitatak TakDhatirakita) ×2 Dhatit s Dhagena",
+            note: "½ Face",
+          },
+          {
+            label: "Palta 4",
+            text: "Dhatit s Dhagena DhatiraKitatak TakDhatirakita Dha s\nDhaTiraKitatak DhaTiraKitatak TakDhatirakita",
+            note: "½ Face",
+          },
+          {
+            label: "Palta 5",
+            text: "Dhatirakitatak Tirakita DhatiraKitatak TakDhatirakita\nDhatit s Dhagena DhatiDhage Tinakina",
+          },
+          {
+            label: "Palta 6",
+            text: "DhatiraKitatak TakDhatirakita Dha s TakDhaTirakita\nDhatit s Dhagena DhatiDhage Tinakina",
+          },
+          {
+            label: "Palta 7",
+            text: "TakDhatirakita  (TakTakDhatirakita) ×2\nDhatit s Dhagena DhatiDhage Tinakina",
+          },
+          {
+            label: "Palta 8",
+            text: "DhatiraKitatak Tirakita DhatiraKitatak TakDhatirakita\nThatiraKitatak Tirakita Dk Tirakita DhatiraKitatak TakDhatirakita\nDhatit s Dhagena DhatiDhage Tinakina",
+          },
+          {
+            label: "Tihai",
+            text: "(DhatiraKitatak TakDhatirakita Dha\n(DhatiraKitatak TakDhatirakita) ×2  Dha\n(DhatiraKitatak TakDhatirakita) ×3  Dha ss) ×3",
+          },
+        ],
+      },
+      tags: ["rupak", "kayda", "rgena", "dhatirakita"],
+    },
+    {
+      id: "rupak-peshkar-dhakd",
+      name: "Peshkar Dha-kd",
+      type: "Peshkar",
+      description: "Extended Rupak Peshkar with farsh bandi and embedded Kayada",
+      content: {
+        note: "Complex two-part peshkar. First section (Vistar + Paltas 1–10) develops from the Dha-kd face. Second section (Paltas A1–A9) introduces tirakita development ending with farsh bandi. Closes with embedded Kayada.",
+        sections: [
+          {
+            label: "Face",
+            text: "Dha-kd dha dhinna titakita dhin_-na dha-d DHA tina\nTa_kd ta tinna titakita ti- - na ta-kd dha dhina",
+          },
+          {
+            label: "Vistar 1",
+            text: "(Dha-kd dha dhinna titakita) ×2\n½ face",
+          },
+          {
+            label: "Vistar 2",
+            text: "Dha-kd dha dhinna titakita titakita dha-kd dha dhinna\n½ face",
+          },
+          {
+            label: "Vistar 3",
+            text: "Titakita dha_kd dha dhi--na dhi--na dha-kd dha tina\n½ face",
+          },
+          {
+            label: "Vistar 4",
+            text: "Dha titakita dhadha dhina titakita dha_kd dha tina\n½ face",
+          },
+          {
+            label: "Vistar 5",
+            text: "Dha titakita dhatitakita dha-kd  dhi--na dha_kd dha tina  ina",
+          },
+          {
+            label: "Palta 1",
+            text: "[Gina titian gina dhatita dhagena  dha -] ×2\n½ face",
+          },
+          {
+            label: "Palta 2",
+            text: "Gina tita gina dha tita dhagena dha-  , gina tita gina dhatita dhagena tita\nTita gina dhage tina gina tita gina dhatraka dhikita gina dhage tina kina",
+          },
+          {
+            label: "Palta 3",
+            text: "Tita gina tita  dhatita dhagenatita gina tita gina dhatita dhagena dha-\n½ face",
+          },
+          {
+            label: "Palta 4",
+            text: "(Gina tita tita gina dhagtita dhagena) ×2\n½ face",
+          },
+          {
+            label: "Palta 5",
+            text: "Gina tita gina dhatita dhagena  dhatita dhagena dhatita dhagena dha-gina\n½ face",
+            note: "3+3",
+          },
+          {
+            label: "Palta 6",
+            text: "Tita Gina Tita dhatita dhagena\nDhatita dhagena Tita gina Tita\ngina gina\n½ face",
+          },
+          {
+            label: "Palta 7",
+            text: "Gina Tita gina Tita gina\nTita gina Tita gina Tita\nGina Tita gina gina\n½ face",
+            note: "5+2",
+          },
+          {
+            label: "Palta 8",
+            text: "Gina Tita gina dhage dhinagina dha -  Ginatita gina dhage dhinagina\n½ face",
+            note: "4+3",
+          },
+          {
+            label: "Palta 9",
+            text: "Ga gendha Ginatita gagena dhaginatita\ngagena dhagena dhage dhinagina\n½ face",
+            note: "Innovation",
+          },
+          {
+            label: "Palta 10",
+            text: "Gagena dhagena dha - gina dha -gina dha\nGegina dhagena dhage dhina dhadhati dhadha tina\n-dhina tirakita dha -kd\ndha dhati dhadha tina",
+          },
+          {
+            label: "Palta A1 (Dohra)",
+            text: "Dohra",
+          },
+          {
+            label: "Palta A2",
+            text: "(Dha-kr dhatirakita dhinna)\ndhadhati dhadha tina",
+          },
+          {
+            label: "Palta A3",
+            text: "Dha-kr dhatirakita dhinna\nTirakit dhina dha tirakita\n½ face",
+          },
+          {
+            label: "Palta A4",
+            text: "Dha-kr dhatirakita dhinna\nTirakita dha-kd dha tirakita\n½ face",
+          },
+          {
+            label: "Palta A5",
+            text: "Tirakita dha-kd dhana tirakita\nDha-kd dha dhinna tirakita",
+          },
+          {
+            label: "Palta A6",
+            text: "Dhana tirakita dhinna tirakita dha-kd dha dhinna tirakita",
+          },
+          {
+            label: "Palta A7",
+            text: "Dhana tirakita dhatirakita dha-kd dha dhina -dhatirakita\n-dhina tirakita dha -kd\ndha dhati dhadha tina",
+          },
+          {
+            label: "Palta A8 (Farsh Bandi)",
+            text: "Dhatitakita dha-kd dhadhina dhi-na dha-kd dha Tina",
+          },
+          {
+            label: "Palta A9",
+            text: "(dhi-na - dha-kd dha Tina) ×4",
+          },
+          {
+            label: "Kayada (Face)",
+            text: "Gina -dhagena Dhatraka dhatidhagena dhinagina\nTirakittaktatirakita gina dhagena Dhatraka dhatidhagena tinakina",
+          },
+          {
+            label: "Kayada Palta 1",
+            text: "(Gina -dhagena Dhatraka dhatidhagena dha) ×2\nFace",
+          },
+          {
+            label: "Kayada Palta 2",
+            text: "Gina-dhagena dhat",
+            note: "Manuscript ends here",
+          },
+        ],
+      },
+      tags: ["rupak", "peshkar", "dha-kd", "farsh-bandi", "extended"],
+    },
+    {
+      id: "rupak-kayda-gina-dhagena",
+      name: "Kayada — Gina Dhagena Dhatraka",
+      type: "Kayda",
+      description: "Rupak Taal Kayada (partial manuscript)",
+      content: {
+        note: "Partial manuscript — Paltas 1–2 notated.",
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Gina -dhagena Dhatraka dhatidhagena dhinagina\nTirakittaktatirakita gina dhagena Dhatraka dhatidhagena tinakina",
+          },
+          {
+            label: "Palta 1",
+            text: "(Gina -dhagena Dhatraka dhatidhagena dha) ×2\nFace",
+          },
+          {
+            label: "Palta 2",
+            text: "Gina-dhagena dhat",
+            note: "Manuscript ends here — incomplete",
+          },
+        ],
+      },
+      tags: ["rupak", "kayda", "gina-dhagena", "incomplete"],
+    },
+    {
+      id: "rupak-kayda-delhi-ang",
+      name: "Kayada Delhi Ang",
+      type: "Kayda",
+      description: "Delhi Ang Kayada in Rupak Taal — Pun tinakina. Tihai: 19+19+18=56 matras (4 avartan)",
+      content: {
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Pun tinakina",
+            note: "Full face not notated — begins from Palta 1",
+          },
+          {
+            label: "Palta 1",
+            text: "(Dhatita dhitat dhagena dhatidhagena) ×2\n½ face",
+          },
+          {
+            label: "Palta 2",
+            text: "Dhatita dhitat dhagena dhatidhagena\ndhitat dhagena dhatidhagena dhagena",
+          },
+          {
+            label: "Palta 3",
+            text: "Dhatita dhitat dhagena dhatidhagena\ndhagena dhitat dhagena dhatidhagena",
+          },
+          {
+            label: "Palta 4",
+            text: "Dhatita dhita dhagena dhitat dha-\nDhita dhagena dhatidhagena tinakina",
+          },
+          {
+            label: "Palta 5",
+            text: "Dhatita dhitat  dhitaT dhagena   Dhitat\nDhitata dhagena dhatidhage Tina kina",
+          },
+          {
+            label: "Palta 6",
+            text: "Dhatita dhitat dhitat dhitat dha -\nDhitat dhagena dhatidhage tinakina",
+          },
+          {
+            label: "Tihai",
+            text: "{Dhatitdhitat dhagena dhatidhagena\n(dhitatdhagena dhatidhage tinakina dha--) -} ×3",
+            note: "19+19+18=56 matras (14×4=56 — 4 avartan)",
+          },
+        ],
+      },
+      tags: ["rupak", "kayda", "delhi-ang", "tihai"],
+    },
     ],
   },
 ];
