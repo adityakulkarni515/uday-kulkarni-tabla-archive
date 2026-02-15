@@ -1490,6 +1490,442 @@ export const taals: Taal[] = [
         },
         tags: ["tukda", "jhaptal", "beginner", "solo"],
       },
+    {
+      id: "jhaptal-rela-1",
+      name: "Rela",
+      type: "Rela",
+      description: "Jhaptal Rela",
+      content: {
+        sections: [
+          {
+            label: "Face",
+            text: "Dha-dignag dhinatirakita dha --- dhinatirakita dha--- dhintirakita\nDha-gida nagdhin tirakita dhinatirakita dhatirakita dha-gida nagatin tirakita\nTa-kidnak tintirakita ta--- tinatirakita ta--- dhinatirakita\nDha-gida  nagadhina tirakita dhinatirakita dhatirakita dha -gida nagadhintirakita",
+          },
+        ],
+      },
+      tags: ["jhaptal", "rela"],
+    },
+    {
+      id: "jhaptal-kayda-tishra-sohon",
+      name: "Tishra Jati Kayada (Sohon Ghosh)",
+      type: "Kayda",
+      description: "Tishra jati Kayada in Jhaptal. Attributed to Sohon Ghosh.",
+      content: {
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Dha-kddhe  titatita kddhetita dhagetraka dhinagina\nDhatigina titakddhe tita dhage trakatinga tinakina",
+          },
+          {
+            label: "Special Variation",
+            text: "Dhatigina tita dhatigina dhatiginatita kddhe tita\nDhatigina titakddhe tita dhage trakatinga tinakina",
+            note: "Special variation — apart from all standard paltas",
+          },
+        ],
+      },
+      tags: ["jhaptal", "kayda", "tishra", "sohon-ghosh"],
+    },
+    {
+      id: "jhaptal-peshkar-1",
+      name: "Peshkar",
+      type: "Peshkar",
+      description: "Jhaptal Peshkar with 9 paltas and tihai",
+      content: {
+        sections: [
+          {
+            label: "Face",
+            text: "DHI- -KD DHI- - DHA- -DHA-DHIN-DHA- TI—DHA-KD DHA-DHIN-DHA DHA-TI- DHA-DHA-TIN-TA -",
+          },
+          {
+            label: "Palta 1",
+            text: "(DHI- -KD DHI- - DHA- -DHA-DHIN-DHA- TI—DHA) ×2\n½ FACE",
+          },
+          {
+            label: "Palta 2",
+            text: "DHI- -KD DHI- - DHA- -DHA-DHIN-DHA- (TI—DHA—KD DHA DHINA) ×2\n½ FACE",
+          },
+          {
+            label: "Palta 3",
+            text: "DHI- -KD DHI- - DHA- -DHA-DHIN-DHA- TI—DHA-KD DHA-DHIN-DHA DHA-TI- DHA-DHA-THA-KD DHA-DHIN-DHA DHA-TI- DHA-DHA-TIN-TA\nKITATAK TINNA KITTAK TINGATINAKIDNAGE TIRAKITA TAKE TRAKA TINA KINA\n(TAKAGIDAN DHA TINA DHA --) ×3",
+          },
+          {
+            label: "Palta 4",
+            text: "DHI—KD (DHIN—DHA- DHA DHINA) ×3\nFACE",
+          },
+          {
+            label: "Palta 5",
+            text: "TI—DHA-KDDHA-DHI-NA - - ---- DHA-KDDHA-DHIN-DHA- DHATIDHADHA TINA",
+          },
+          {
+            label: "Palta 6",
+            text: "DHIN – DHA-KD DHA DHIN NA – DHA TI—DHA-KD DHA DHINA DHATI DHA DHA TINA",
+          },
+          {
+            label: "Palta 7",
+            text: "DHIGENA DHA-KDDHA DHINA –DHA TI—DHA-KDDHA DHINA DHATI DHA DHA TINA",
+          },
+          {
+            label: "Palta 8",
+            text: "(DHIN—DHA-KDDHA TI—DHA-KDDHA TIRAKITA) ×2\nTIN –TA-KDTA – TI—TA-KDTA-TIRAKITA\nDHIN—DHA-KDDHA TI—DHA-KDDHA TIRAKITA",
+          },
+          {
+            label: "Palta 9",
+            text: "(DHIN—DHA-KDDHA TI—DHA-KDDHA TIRAKITA) ×2\nTIN –TA-KDTA – TI-DHA – TIRAKITA DHINA – DHA TIRAKITA DHINNA – DHA TIRAKITA",
+          },
+          {
+            label: "Tihai",
+            text: "DHIN—DHA-KDDHA TI—DHA-KDDHA TIN—TA-KD TA- TI-DHA-TIRAKITA\n(KATA DHA-NA DHA-NA DHA-) ×3",
+          },
+        ],
+      },
+      tags: ["jhaptal", "peshkar", "dha-kd"],
+    },
+    {
+      id: "jhaptal-kayda-sheshgiri",
+      name: "Kayada — Pandit Sheshgiri Hangal",
+      type: "Kayda",
+      description: "Kayada composed by Pandit Sheshgiri Hangal. 7 paltas + tihai.",
+      content: {
+        note: "Composed by Pandit Sheshgiri Hangal",
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "DHATITA DHATITA GINA TINA KDDHATITA DHAGETINHAKETINA KINA\nTITA-DHATITA GINA TINA KDDHATITA DHAGE DHINA GINA",
+          },
+          {
+            label: "Palta 1",
+            text: "(DHA TITA DHATITA GINA TINA KDDHATITA DHAGETINA KINA) ×3\nTITA-DHATITA GINA TINA KDDHATITA GINA TINA KINA",
+          },
+          {
+            label: "Palta 2",
+            text: "(DHA TITA DHA TITA GINA TINA) ×3 KDDHA TITA DHAGE TINA KINA",
+          },
+          {
+            label: "Palta 3",
+            text: "DHATITA  DHATITA (GINATINA) ×2  DHATITA DHATITA\nTITA-DHA TITA GINA TINA KDDHA TITA DHAGE TINA KINA",
+          },
+          {
+            label: "Palta 4",
+            text: "DHATITA DHATITA GINATINA (KDDHA TITA DHAGE TINA KINA) ×3",
+          },
+          {
+            label: "Palta 5",
+            text: "DHATITA DHATITA GINATINA TA GINATINA TA GINATINA\nTITA-DHA TITA GINATINA KDDHA TITA DHAGE TINA KINA",
+          },
+          {
+            label: "Palta 6",
+            text: "KDDHA TITA KDDHA TITA GINA KDDHA TITA DHAGETINA GINA\nTITA-DHA TITA GINA TINA KDDHA TITA DHAGE TINA KINA",
+          },
+          {
+            label: "Palta 7",
+            text: "(KDDHA TITA DHAGE DHINA GINA) ×2\n(KDTATITA TAKETINA KINA KDDHA TITA DHAGE DHINA GINA",
+            note: "Manuscript may be incomplete at Palta 7",
+          },
+          {
+            label: "Tihai",
+            text: "{(DHATITA DHATITA GINATINA KDDHA TITA DHAGE TINAK\nDHA-DHA-TA DHA-) ×3\nTINA KINA} ×3",
+          },
+        ],
+      },
+      tags: ["jhaptal", "kayda", "sheshgiri-hangal"],
+    },
+    {
+      id: "jhaptal-rela-sheshgiri",
+      name: "Kayada Rela — Pandit Sheshgiri Hangal",
+      type: "Rela",
+      description: "Kayada Rela composed by Pandit Sheshgiri Hangal. 7 paltas + tihai.",
+      content: {
+        note: "Composed by Pandit Sheshgiri Hangal",
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Dtinna kittak\ntirakittak DhirDhir  kitatak DhirDhirDhir  kitatak\nDhatirakitatak thinakitatak",
+          },
+          {
+            label: "Kali Ang",
+            text: "Tatirakitatak tirakittak dhirdhirdhir kittak tha tiragidanag tinna kittak\ntirakittak DhirDhir kitatak DhirDhirDhir kitatak\nDhatirakitatak thinakitatak",
+          },
+          {
+            label: "Palta 1",
+            text: "(Dhatirakitatak tirakittak dhirdhirdhir kittak dha tiragidanag tinna kittak) ×3\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak\nDhatirakitatak thinakitatak",
+          },
+          {
+            label: "Palta 2",
+            text: "Dhatirakittak (tirakittak) ×2  (dhirdhirdhir kittak) ×2\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak\nDhatirakitatak thinakitata",
+          },
+          {
+            label: "Palta 3",
+            text: "Dhatirakittak tirakittak (dhirdhir kittak) ×2 dhirdhirdhirkittak\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak\nDhatirakitatak thinakitata",
+          },
+          {
+            label: "Palta 4",
+            text: "Dhatirakittak tirakittak dhirdhirdhir kittak dha - dhirdhirdhir kittak\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak\nDhatirakitatak thinakitata",
+          },
+          {
+            label: "Palta 5",
+            text: "Dhatirakittak tirakittak dhirdhirdhirkittak tirakittakdhirdhirkittak\ndhaTirakittak dhirdhirinakittak",
+          },
+          {
+            label: "Palta 6",
+            text: "Dhirdhirkittak dhitdhirdhirkittak dhadhirdhirkittak dhirdhirdhirkittak\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitata",
+          },
+          {
+            label: "Palta 7",
+            text: "tirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitata",
+            note: "Two times",
+          },
+          {
+            label: "Tihai",
+            text: "((Tirakittak dhirdhirdhirkirtak) ×2\nDHA kata dha kata dha kata dha _) ×3",
+          },
+        ],
+      },
+      tags: ["jhaptal", "rela", "sheshgiri-hangal", "kayada-rela"],
+    },
+    {
+      id: "jhaptal-chakradhar-1",
+      name: "Chakradhar — Ch-1",
+      type: "Chakradhar",
+      description: "Jhaptal Chakradhar — three-part repeating structure (×3 outer)",
+      content: {
+        sections: [
+          {
+            label: "Face",
+            text: "(Dhit Dhit Traka Dhit\nDhirDhir Kitatak\nDhing Dhing Dha Gintirakitatak Ta\n(Kath DhirDhirkitatak Takita Dha s) ×3) ×3",
+          },
+        ],
+      },
+      tags: ["jhaptal", "chakradhar"],
+    },
+    {
+      id: "jhaptal-gat-1",
+      name: "Gat — 1",
+      type: "Gat",
+      description: "Jhaptal Gat 1",
+      content: {
+        sections: [
+          {
+            label: "Face",
+            text: "Kitatak tit s Kitatak tit s Kitatak tit s\nThak Dhin Thak Dhin Thak Dhin ThakThak ss\nKitatak Kdaan s kitatak Nagatikdaan s\nKitatak nagatira Kitatak tit ss\nDhirDhirDhir ss\nDhirDhirdhirDhira ss",
+          },
+          {
+            label: "Tihai",
+            text: "(DhirDhir kitatak Tatirakitatak Ta s\nKda Dhan s Dhan s Dhan s) ×3",
+          },
+        ],
+      },
+      tags: ["jhaptal", "gat"],
+    },
+    {
+      id: "jhaptal-gat-2",
+      name: "Gat — 2",
+      type: "Gat",
+      description: "Jhaptal Gat 2",
+      content: {
+        sections: [
+          {
+            label: "Face",
+            text: "(DhirDhirKath s) ×3\nDhirDhirkitatak Tatirakitatak  DhirDhirkitatak TakitaDha\nTi ss Ta ss Ka ss Ta ss Ga ss Dhi ss Ga ss Na ss Dha s",
+          },
+          {
+            label: "Tihai",
+            text: "(Dha s TakitaDha KathDhaan\n(Dhatirakitatak Tirakita Dhatit Dha s) ×3",
+          },
+        ],
+      },
+      tags: ["jhaptal", "gat"],
+    },
+    {
+      id: "jhaptal-kayda-deshpande",
+      name: "Kayada — Dha tita tita dhagena",
+      type: "Kayda",
+      description: "Jhaptal Kayada. As told by Pt. H Somashekhar Guruji to Prakash Deshpande.",
+      content: {
+        note: "As told to Prakash Deshpande by H Somashekhar Guruji",
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Dha tita tita dhagena tita dha dha tita dhage tina kina\nTita- dhatita gina tita dha dha tita dhage tina kina",
+          },
+        ],
+      },
+      tags: ["jhaptal", "kayda", "deshpande", "somashekhar"],
+    },
+    {
+      id: "jhaptal-rela-chatushra",
+      name: "Rela Chatushra Jati",
+      type: "Rela",
+      description: "Chatushra Jati Rela in Jhaptal. 7 paltas + tihai.",
+      content: {
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Dhatirakitatak tirakittak dhirdhirdhir kittak dha tiragidanag tinna kittak\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitatak",
+          },
+          {
+            label: "Palta 1",
+            text: "(Dhatirakitatak tirakittak dhirdhirdhir kittak dha tiragidanag tinna kittak) ×3\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitatak",
+          },
+          {
+            label: "Palta 2",
+            text: "Dhatirakittak tirakittak tirakittak dhirdhirdhir kittak dhirdhirdhirkittak\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitata",
+          },
+          {
+            label: "Palta 3",
+            text: "Dhatirakittak tirakittak  (dhirdhir  kittak) ×2 dhirdhirdhirkittak\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitata",
+          },
+          {
+            label: "Palta 4",
+            text: "Dhatirakittak tirakittakttak\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitata",
+          },
+          {
+            label: "Palta 5",
+            text: "Dhatirakittak tirakittak dhirdhirdhirkittak tirakittak dhirdhirkittak dha\nTirakittak dhirdhirkittak dhirdhirdhirkittak dhatirakittak tinakittak",
+          },
+          {
+            label: "Palta 6",
+            text: "Dhirdhirkittak dhitdhirdhirkittak dha - dhirdhirkittak dhirdhirdhirkittak\ntirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitata",
+          },
+          {
+            label: "Palta 7",
+            text: "tirakittak DhirDhirkitatak DhirDhirDhirkitatak Dhatirakitatak thinakitata",
+            note: "Two times",
+          },
+          {
+            label: "Tihai",
+            text: "((Tirakittak dhirdhirdhirkirtak) ×2\nDHA kata dha kata dha kata dha _) ×3",
+          },
+        ],
+      },
+      tags: ["jhaptal", "rela", "chatushra", "jati"],
+    },
+    {
+      id: "jhaptal-kayda-tirakita-chatushra",
+      name: "Chatushra Jati Tirakita Kayada",
+      type: "Kayda",
+      description: "Chatushra Jati Tirakita Kayada in Jhaptal. 5 paltas.",
+      content: {
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Gina dhatirakita  dhagena tit dhagena dhatidhage tinakina\n(Tirakitataktatirakita gina titdhagena dhatidhage tinakina) B",
+          },
+          {
+            label: "Palta 1",
+            text: "(Gina dhatirakita  dhagena tit dhagena dhatidhage tinakina) ×3\nTirakitataktatirakita gina titdhagena dhatidhage tinakina",
+          },
+          {
+            label: "Palta 2",
+            text: "Gina dhatirakita dhagena titdhagena titdhagena titdhagena + B\ndhagena dhatidhagena + B",
+          },
+          {
+            label: "Palta 4",
+            text: "Gina dhatirakita dhagena  dhagena titdhagena dhatidhagena + B",
+            note: "Palta 3 not notated in manuscript",
+          },
+          {
+            label: "Palta 5",
+            text: "Gina dhagena dhatirakita dhagena titdhagena dhatidhagena + B",
+          },
+        ],
+      },
+      tags: ["jhaptal", "kayda", "chatushra", "tirakita"],
+    },
+    {
+      id: "jhaptal-kayda-gina-dhatirakita",
+      name: "Kayada — Gina Dhatirakita Dhagena",
+      type: "Kayda",
+      description: "Jhaptal Kayada — Gina dhatirakita dhagena titdhagena. With dohra and paltas.",
+      content: {
+        sections: [
+          {
+            label: "Face (A)",
+            text: "Gina dhatirakita dhagena titdhagena dhatidhagetinakidnag",
+          },
+          {
+            label: "Face (B)",
+            text: "tirakittaktatirakita gina titdhagena dhatidage tina kina",
+          },
+          {
+            label: "Dohra",
+            text: "Gina dhatirakita dhagena titdhagena titdhagena titdhagena    B",
+          },
+          {
+            label: "Palta 1",
+            text: "Gina dhatirakita dhagena dhagena titdhagena dhatidhagena    AB (½ face)",
+          },
+          {
+            label: "Palta 2",
+            text: "Gina dhatirakita dhagena titdhagena dha-- dhatidhagena\ntirakitataktatirakita gina tidhagena dhatidhage tina kina",
+          },
+          {
+            label: "Palta 3",
+            text: "Gina dhatirakita dhagena dha-- dhatidhagena Titdhagena\nTirakitataktatirakita gina tidhagena dhatidhage tina kina",
+          },
+          {
+            label: "Palta 4",
+            text: "Gina dha tirakita dhadha gena dhatidhagena dhatidhage gena dha\ntirakittaktatirakita gina titdhagena dhatidage tina kina",
+          },
+          {
+            label: "Palta 5",
+            text: "(Dhatirakita dhagena titdhagena) ×2\n½ face",
+          },
+          {
+            label: "Palta 6",
+            text: "Dhatirakita tirakita dhatidhagena - dhatidhagena titdhagena\n½ face",
+          },
+        ],
+      },
+      tags: ["jhaptal", "kayda", "gina-dhatirakita"],
+    },
+    {
+      id: "jhaptal-kayda-dha-tirdha",
+      name: "Kayada — Dha Tirdhadhinadhati",
+      type: "Kayda",
+      description: "Jhaptal Kayada — Dha tirdhadhinadhati dhadhatina. 8 paltas.",
+      content: {
+        sections: [
+          {
+            label: "Face (Mukh)",
+            text: "Dha tirdhadhinadhati dhadhatina",
+          },
+          {
+            label: "Palta 1",
+            text: "(Dhatirakita dhadhina dhadhadhina) ×2\n½ face",
+          },
+          {
+            label: "Palta 2",
+            text: "(Dhatirakita dhadhina dhadhadhina dhadhadhina dhadhadhina -dha\n½ face",
+          },
+          {
+            label: "Palta 3",
+            text: "Dhatirakitadha dhina dhina (dhadhadha dhina) ×2 -dha\n½ face",
+          },
+          {
+            label: "Palta 4",
+            text: "Dhatirakitadha dhina dhina (dhadhadha dhina dhinadhadhina -dha\n½ face",
+          },
+          {
+            label: "Palta 5",
+            text: "(Dhatirakita tirakita) ×3\n½ face",
+          },
+          {
+            label: "Palta 6",
+            text: "Dhatirakita dhina (dhadhadhina) ×3  dhadhadha dhadhina\n½ face",
+          },
+          {
+            label: "Palta 7",
+            text: "Dhatirakita dhadhina dhadhadhina-dhadhinadhati dhadhatina\n-Dhadha dhina dhadhadhina-dhadhina dhati dhadhatina",
+          },
+          {
+            label: "Palta 8",
+            text: "[not notated]",
+            note: "Manuscript ends here",
+          },
+        ],
+      },
+      tags: ["jhaptal", "kayda", "dha-tirdha"],
+    },
     ],
   },
 
