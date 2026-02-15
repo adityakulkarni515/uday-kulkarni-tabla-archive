@@ -1,17 +1,31 @@
-import type { Composition } from "@/types";
+import type { Composition, GenericContent, KaydaContent, PeshkarContent, GatContent, ChakradharContent, RelaContent, TukdaContent } from "@/types";
 import { KaydaView } from "./KaydaView";
 import { PeshkarView } from "./PeshkarView";
 import { GatView } from "./GatView";
 import { ChakradharView } from "./ChakradharView";
 import { RelaView } from "./RelaView";
 import { TukdaView } from "./TukdaView";
-import type { KaydaContent, PeshkarContent, GatContent, ChakradharContent, RelaContent, TukdaContent } from "@/types";
+import { GenericView } from "./GenericView";
 
 interface CompositionRendererProps {
   composition: Composition;
 }
 
+function isGenericContent(content: unknown): content is GenericContent {
+  return (
+    typeof content === "object" &&
+    content !== null &&
+    "sections" in content &&
+    Array.isArray((content as GenericContent).sections)
+  );
+}
+
 export function CompositionRenderer({ composition }: CompositionRendererProps) {
+  // GenericContent takes priority — used for all real manuscript compositions
+  if (isGenericContent(composition.content)) {
+    return <GenericView content={composition.content} />;
+  }
+
   switch (composition.type) {
     case "Kayda":
       return <KaydaView content={composition.content as KaydaContent} />;

@@ -55,13 +55,29 @@ export interface TukdaContent {
   tihai: BolLine;
 }
 
+// Generic / flexible content — used when composition structure doesn't
+// fit a fixed template (many paltas, dohra sections, special notes, etc.)
+export interface GenericSection {
+  label: string;
+  text: string;
+  note?: string;
+  beats?: number;
+  devanagari?: boolean; // render in Devanagari script
+}
+
+export interface GenericContent {
+  sections: GenericSection[];
+  note?: string;
+}
+
 export type CompositionContent =
   | KaydaContent
   | PeshkarContent
   | GatContent
   | ChakradharContent
   | RelaContent
-  | TukdaContent;
+  | TukdaContent
+  | GenericContent;
 
 // ─── Main Composition Entity ──────────────────────────────────────────────────
 
